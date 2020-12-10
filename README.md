@@ -13,37 +13,37 @@
 </p>
 
 # IPGeoLocation
-====
+
 * A tool to retrieve IP Geolocation information
 * Powered by [ip-api](http://ip-api.com/docs/)
 
 
-Requirements
-=====
+# Requirements
+
 * Python 3.x
 * termcolor
 * colorama
 
 
-Download/Installation
-====
-,,,
+# Download/Installation
+```
 * git clone https://github.com/bhikandeshmukh/IPGeoLocation
 * pip3 install -r requirements.txt
 * cd ipgeocoation
 * python3 ipgeolocation.py -t x.x.x.x
-,,,
+```
 
 if pip3 is missing:
-,,,
+
+```
 * apt-get install python3-setuptools
 * easy_install3 pip
 * pip3 install -r requirements.txt
-,,,
+```
 
 
-Features
-====
+# Features
+
 * Retrieve IP or Domain Geolocation.
 * Retrieve your own IP Geolocation.
 * Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
@@ -55,8 +55,8 @@ Features
 * Export results to csv, xml and txt format.
 
 
-Geolocation Information
-====
+# Geolocation Information
+
 * ASN
 * City
 * Country
@@ -71,8 +71,8 @@ Geolocation Information
 * Zip Code
 
 
-Usage
-====
+# Usage
+
 ```
 $ ./ip2geolocation.py
 usage: ipgeolocation.py [-h] [-m] [-t TARGET] [-T file] [-u User-Agent]
@@ -112,8 +112,9 @@ files with this option.
 ```
   
 
-Examples
-====
+# Examples
+  ====
+```
 **Retrieve your IP Geolocation**
 * ./ip2geolocation.py -m
 
@@ -160,6 +161,7 @@ Examples
 * ./ip2geolocation.py -m -e /path/to/results.txt --noprint 
 
 ```
+
 ## Legal Disclaimer:
 
 Usage of the tool for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
