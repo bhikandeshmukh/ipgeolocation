@@ -63,7 +63,7 @@ if pip3 is missing:
 * Country Code
 * ISP
 * Latitude
-* Longtitude
+* Longitude
 * Organization
 * Region Code
 * Region Name
